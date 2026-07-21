@@ -4,7 +4,7 @@
 
 Visual Sentinel monitors websites across six layers in a single product. It renders pages in a real Chromium browser and compares screenshots pixel-by-pixel to catch what traditional uptime monitors miss: broken CSS, missing images, or layout shifts that still return HTTP 200 OK.
 
-Works equally well for a single personal site, a small SaaS, or an agency with hundreds of client sites.
+Use it for one important site, a SaaS product, or an agency portfolio with dozens of client sites.
 
 ## Links
 
@@ -17,22 +17,19 @@ Works equally well for a single personal site, a small SaaS, or an agency with h
 
 ## What lives here
 
-This organization hosts the open-source pieces of the Visual Sentinel platform:
+This organization hosts the public developer surfaces for Visual Sentinel:
 
-- Status page templates and theme starters
-- CLI tools and developer SDKs
-- Public docs source
-- Example monitor configurations and integration recipes
-- Claude Code skills for VisualSentinel automation
-
-(Repositories will be published here as they reach a usable state.)
+- [`mcp-server`](https://github.com/VisualSentinel/mcp-server): the official Model Context Protocol server with 16 monitor, incident, status-page, and diagnostic tools
+- [`claude-plugins`](https://github.com/VisualSentinel/claude-plugins): three Claude Code monitoring skills, three slash commands, and the Visual Sentinel marketplace
+- [`openapi`](https://github.com/VisualSentinel/openapi): the public OpenAPI 3.1 specification for the Visual Sentinel REST API
+- [`.github`](https://github.com/VisualSentinel/.github): this organization profile and shared community files
 
 ## For developers
 
 - API reference: https://docs.visualsentinel.com
-- 11 notification channels: Email, WhatsApp (rare in monitoring), SMS, Slack, Discord, Telegram, Microsoft Teams, PagerDuty, OpsGenie, webhooks, Prometheus
+- 10 notification channels: Email, WhatsApp, Slack, Discord, Telegram, Microsoft Teams, PagerDuty, OpsGenie, webhooks, and Prometheus
 - Public probe user-agent: `VisualSentinelBot/2.0 (+https://visualsentinel.com/bot)` (allowlist this in your WAF if Visual Sentinel is checking your site)
-- IP ranges for WAF allowlisting: https://visualsentinel.com/bot/ips
+- Bot reference and current probe details: https://visualsentinel.com/bot
 - Server monitoring: CPU, RAM, disk, and network in the same dashboard as website checks, with optional incident correlation between the two
 
 ## Contact
