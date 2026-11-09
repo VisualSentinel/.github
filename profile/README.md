@@ -2,7 +2,7 @@
 
 > 6-layer website monitoring: uptime, performance, SSL, DNS, visual regression, and content changes.
 
-Visual Sentinel monitors websites across six layers in a single product. It renders pages in a real Chromium browser and compares screenshots pixel-by-pixel to catch what traditional uptime monitors miss: broken CSS, missing images, or layout shifts on pages that still look fine to a basic uptime check.
+Visual Sentinel monitors websites across six layers in a single product. It opens pages in a real browser and compares screenshots pixel-by-pixel to catch what traditional uptime monitors miss: broken CSS, missing images, or layout shifts on pages that still look fine to a basic uptime check.
 
 Use it for one important site, a SaaS product, or an agency portfolio with dozens of client sites.
 
