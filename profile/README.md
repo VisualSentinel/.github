@@ -2,14 +2,17 @@
 
 > 6-layer website monitoring: uptime, performance, SSL, DNS, visual regression, and content changes.
 
-Visual Sentinel monitors websites across six layers in a single product. It renders pages in a real Chromium browser and compares screenshots pixel-by-pixel to catch what traditional uptime monitors miss: broken CSS, missing images, or layout shifts on pages that still look fine to a basic uptime check.
+Visual Sentinel monitors websites across six layers in a single product. It opens pages in a real browser and compares screenshots pixel-by-pixel to catch what traditional uptime monitors miss: broken CSS, missing images, or layout shifts on pages that still look fine to a basic uptime check.
 
 Use it for one important site, a SaaS product, or an agency portfolio with dozens of client sites.
 
 ## Links
 
 - Website: https://visualsentinel.com
-- Pricing: https://visualsentinel.com/pricing (permanent Free plan with no card; paid plans from $15/mo, 15% off yearly, with a 10-day trial that needs a card and bills on day 11; 14-day money-back guarantee)
+- Pricing: https://visualsentinel.com/pricing
+  - Solo $15, Starter $30, Business $80 and Agency $300 USD a month. Yearly is 2 months free.
+  - Your site's first check is free. Then a 10-day free trial: no card needed with a work email. With a personal email address, you add a card ($0 today, billed on day 11 unless you cancel).
+  - 30-day money-back guarantee.
 - Documentation: https://docs.visualsentinel.com
 - Status page: https://status.visualsentinel.com
 - Changelog: https://visualsentinel.com/changelog
@@ -19,7 +22,7 @@ Use it for one important site, a SaaS product, or an agency portfolio with dozen
 
 This organization hosts the public developer surfaces for Visual Sentinel:
 
-- [`mcp-server`](https://github.com/VisualSentinel/mcp-server): the official Model Context Protocol server with 16 monitor, incident, status-page, and diagnostic tools
+- [`mcp-server`](https://github.com/VisualSentinel/mcp-server): the official Model Context Protocol server with 17 monitor, incident, status-page, and diagnostic tools
 - [`claude-plugins`](https://github.com/VisualSentinel/claude-plugins): three Claude Code monitoring skills, three slash commands, and the Visual Sentinel marketplace
 - [`openapi`](https://github.com/VisualSentinel/openapi): the public OpenAPI 3.1 specification for the Visual Sentinel REST API
 - [`.github`](https://github.com/VisualSentinel/.github): this organization profile and shared community files
